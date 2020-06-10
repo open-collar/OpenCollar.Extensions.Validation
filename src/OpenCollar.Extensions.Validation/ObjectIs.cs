@@ -31,7 +31,7 @@ namespace OpenCollar.Extensions.Validation.Validation
     ///     <a href="https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml"> Jebbs PlantUML </a>. <img src="../images/uml-diagrams/Validation/ObjectIs/ObjectIs.svg" />
     /// </remarks>
     [Flags]
-    internal enum ObjectIs
+    public enum ObjectIs
     {
         /// <summary>
         ///     The validation to perform is unknown or undefined. This value must never be used.

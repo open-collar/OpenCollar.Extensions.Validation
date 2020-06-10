@@ -29,7 +29,7 @@ namespace OpenCollar.Extensions.Validation.Validation
     ///     <a href="https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml"> Jebbs PlantUML </a>. <img src="../images/uml-diagrams/Validation/EnumIs/EnumIs.svg" />
     /// </remarks>
     [Flags]
-    internal enum EnumIs
+    public enum EnumIs
     {
         /// <summary>
         ///     No validation is applied.

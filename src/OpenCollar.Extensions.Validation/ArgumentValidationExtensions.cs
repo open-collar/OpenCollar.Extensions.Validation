@@ -35,7 +35,7 @@ namespace OpenCollar.Extensions.Validation.Validation
     ///     The following UML has been generated directly from the source code using
     ///     <a href="https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml"> Jebbs PlantUML </a>. <img src="../images/uml-diagrams/Validation/ArgumentValidationExtensions/ArgumentValidationExtensions.svg" />
     /// </remarks>
-    internal static class ArgumentValidationExtensions
+    public static class ArgumentValidationExtensions
     {
         /// <summary>
         ///     Validates the specified argument value is a member of the enumeration type specified.
