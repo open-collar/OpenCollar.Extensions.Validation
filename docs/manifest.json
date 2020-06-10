@@ -13,12 +13,96 @@
       "is_incremental": false
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.ArgumentValidationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.ArgumentValidationExtensions.html",
+          "hash": "jvNgPqTWWNnwRr5oO8KAgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.EnumIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.EnumIs.html",
+          "hash": "Fdup1WIPPot+3vpbP7hIog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.ObjectIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.ObjectIs.html",
+          "hash": "nMLsOoWUoI6sPKnrVqcZfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.StringIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.StringIs.html",
+          "hash": "SOo2LE12I+GwuzCBrty/Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.html",
+          "hash": "IxNwPpcBfc3PYu9ylCrMeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "BCmjZ1jfT1IOu7bm2gFa9A=="
+          "hash": "xbBZjkh9zBCekzGpe489HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "LV8Gooux8BK1EheUBE1rGg=="
         }
       },
       "is_incremental": false,
@@ -75,7 +159,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "AlZVDmZb1rdK50wKRwdr2A=="
+          "hash": "qLR8oaMq+CsSTf9ceS6f5Q=="
         }
       },
       "is_incremental": false,
@@ -128,6 +212,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
