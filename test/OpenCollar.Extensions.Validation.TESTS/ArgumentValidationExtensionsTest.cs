@@ -20,7 +20,7 @@
 using System;
 using System.Collections.Generic;
 
-using OpenCollar.Extensions.Validation.Validation;
+using OpenCollar.Extensions.Validation;
 
 using Xunit;
 

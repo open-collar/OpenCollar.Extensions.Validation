@@ -19,7 +19,7 @@
 
 using System;
 
-namespace OpenCollar.Extensions.Validation.Validation
+namespace OpenCollar.Extensions.Validation
 {
     /// <summary>
     ///     Used to mark properties and arguments as having been validated as not being <see langword="null" />.

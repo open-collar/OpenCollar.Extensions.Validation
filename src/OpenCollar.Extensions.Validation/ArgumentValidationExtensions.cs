@@ -26,7 +26,7 @@ using JetBrains.Annotations;
 
 using OpenCollar.Extensions.Validation.Resources;
 
-namespace OpenCollar.Extensions.Validation.Validation
+namespace OpenCollar.Extensions.Validation
 {
     /// <summary>
     ///     Extension methods used in the validation of arguments.

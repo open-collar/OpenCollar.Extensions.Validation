@@ -20,7 +20,7 @@
 using System;
 using System.Diagnostics;
 
-namespace OpenCollar.Extensions.Validation.Validation
+namespace OpenCollar.Extensions.Validation
 {
     /// <summary>
     ///     Enables writing abbreviations for contracts that get copied to other methods

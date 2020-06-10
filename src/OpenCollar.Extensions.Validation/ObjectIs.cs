@@ -19,7 +19,7 @@
 
 using System;
 
-namespace OpenCollar.Extensions.Validation.Validation
+namespace OpenCollar.Extensions.Validation
 {
 #pragma warning disable S2342 // Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?s$'.
 

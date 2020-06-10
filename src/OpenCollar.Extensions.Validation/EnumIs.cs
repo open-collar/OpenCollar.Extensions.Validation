@@ -19,7 +19,7 @@
 
 using System;
 
-namespace OpenCollar.Extensions.Validation.Validation
+namespace OpenCollar.Extensions.Validation
 {
     /// <summary>
     ///     An enumeration defining the validation that can be applied to an enum value.
