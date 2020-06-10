@@ -17,11 +17,11 @@
         "InvalidFileLink"
       ],
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.ArgumentValidationExtensions.yml",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.ArgumentValidationExtensions.html",
-          "hash": "jvNgPqTWWNnwRr5oO8KAgA=="
+          "relative_path": "api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.html",
+          "hash": "U2ua14VnXNy85Kg0vG9BnA=="
         }
       },
       "is_incremental": false,
@@ -32,11 +32,11 @@
         "InvalidFileLink"
       ],
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.EnumIs.yml",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.EnumIs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.EnumIs.html",
-          "hash": "Fdup1WIPPot+3vpbP7hIog=="
+          "relative_path": "api/OpenCollar.Extensions.Validation.EnumIs.html",
+          "hash": "UeMqJcrrTz3KsINxGrDwlw=="
         }
       },
       "is_incremental": false,
@@ -47,11 +47,11 @@
         "InvalidFileLink"
       ],
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.ObjectIs.yml",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.ObjectIs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.ObjectIs.html",
-          "hash": "nMLsOoWUoI6sPKnrVqcZfA=="
+          "relative_path": "api/OpenCollar.Extensions.Validation.ObjectIs.html",
+          "hash": "AIfev+UYEHzWqWU1eAulcQ=="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
         "InvalidFileLink"
       ],
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.StringIs.yml",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.StringIs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.StringIs.html",
-          "hash": "SOo2LE12I+GwuzCBrty/Pw=="
+          "relative_path": "api/OpenCollar.Extensions.Validation.StringIs.html",
+          "hash": "JA/nuL+VODAY4G0xaeYijw=="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extensions.Validation.Validation.yml",
+      "source_relative_path": "api/OpenCollar.Extensions.Validation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenCollar.Extensions.Validation.Validation.html",
-          "hash": "IxNwPpcBfc3PYu9ylCrMeA=="
+          "relative_path": "api/OpenCollar.Extensions.Validation.html",
+          "hash": "knWyEFHtfI+hc2tVg8tZEA=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "LV8Gooux8BK1EheUBE1rGg=="
+          "hash": "Mwio8FaEIu34AEFeEMA03w=="
         }
       },
       "is_incremental": false,
