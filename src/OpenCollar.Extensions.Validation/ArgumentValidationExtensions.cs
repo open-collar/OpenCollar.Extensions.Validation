@@ -40,11 +40,21 @@ namespace OpenCollar.Extensions.Validation.Validation
         /// <summary>
         ///     Validates the specified argument value is a member of the enumeration type specified.
         /// </summary>
-        /// <typeparam name="TEnum"> The type of the enumeration to which the argument must belong. </typeparam>
-        /// <param name="argumentValue"> The value of the argument to validate. </param>
-        /// <param name="argumentName"> The name of the argument to validate. </param>
-        /// <param name="validation"> The type of validation to perform. </param>
-        /// <exception cref="ArgumentException"> <paramref name="argumentValue" /> must be an of an enum type </exception>
+        /// <typeparam name="TEnum">
+        ///     The type of the enumeration to which the argument must belong.
+        /// </typeparam>
+        /// <param name="argumentValue">
+        ///     The value of the argument to validate.
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument to validate.
+        /// </param>
+        /// <param name="validation">
+        ///     The type of validation to perform.
+        /// </param>
+        /// <exception cref="ArgumentException">
+        ///     <paramref name="argumentValue" /> must be an of an enum type
+        /// </exception>
         /// <exception cref="ArgumentOutOfRangeException">
         ///     The value provided in <paramref name="validation" /> was not a valid member of the <see cref="EnumIs" /> enum.
         /// </exception>
@@ -102,12 +112,24 @@ namespace OpenCollar.Extensions.Validation.Validation
         ///     Validates the value of the specified argument according to the rules defined in
         ///     <paramref name="validation" /> .
         /// </summary>
-        /// <param name="argumentValue"> The value of the argument to validate. </param>
-        /// <param name="argumentName"> The name of the argument to validate (used in error messages). </param>
-        /// <param name="validation"> The type of validation to perform. </param>
-        /// <exception cref="ArgumentNullException"> The argument is <see langword="null" />. </exception>
-        /// <exception cref="ArgumentException"> The argument is zero-length. </exception>
-        /// <exception cref="ArgumentException"> The argument contains only white space characters. </exception>
+        /// <param name="argumentValue">
+        ///     The value of the argument to validate.
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument to validate (used in error messages).
+        /// </param>
+        /// <param name="validation">
+        ///     The type of validation to perform.
+        /// </param>
+        /// <exception cref="ArgumentNullException">
+        ///     The argument is <see langword="null" />.
+        /// </exception>
+        /// <exception cref="ArgumentException">
+        ///     The argument is zero-length.
+        /// </exception>
+        /// <exception cref="ArgumentException">
+        ///     The argument contains only white space characters.
+        /// </exception>
         [AssertionMethod]
         [ContractArgumentValidator]
         [ContractAbbreviator]
@@ -149,11 +171,21 @@ namespace OpenCollar.Extensions.Validation.Validation
         ///     Validates the value of the specified argument according to the rules defined in
         ///     <paramref name="validation" /> .
         /// </summary>
-        /// <typeparam name="T"> The type of the value. </typeparam>
-        /// <param name="argumentValue"> The value of the argument to validate. </param>
-        /// <param name="argumentName"> The name of the argument to validate (used in error messages). </param>
-        /// <param name="validation"> The type of validation to perform. </param>
-        /// <exception cref="ArgumentNullException"> The argument is <see langword="null" />. </exception>
+        /// <typeparam name="T">
+        ///     The type of the value.
+        /// </typeparam>
+        /// <param name="argumentValue">
+        ///     The value of the argument to validate.
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument to validate (used in error messages).
+        /// </param>
+        /// <param name="validation">
+        ///     The type of validation to perform.
+        /// </param>
+        /// <exception cref="ArgumentNullException">
+        ///     The argument is <see langword="null" />.
+        /// </exception>
         [AssertionMethod]
         [ContractArgumentValidator]
         [ContractAbbreviator]
@@ -180,16 +212,30 @@ namespace OpenCollar.Extensions.Validation.Validation
         ///     <paramref name="argumentValue" /> and <paramref name="elementValidation" /> and returns containing the
         ///     validated argument as an array.
         /// </summary>
-        /// <typeparam name="T"> The type of the elements in the argument. </typeparam>
-        /// <param name="argumentValue"> The value of the argument to validate. </param>
-        /// <param name="argumentName"> The name of the argument to validate (used in error messages). </param>
-        /// <param name="argumentValidation"> The type of validation to perform on the argument. </param>
+        /// <typeparam name="T">
+        ///     The type of the elements in the argument.
+        /// </typeparam>
+        /// <param name="argumentValue">
+        ///     The value of the argument to validate.
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument to validate (used in error messages).
+        /// </param>
+        /// <param name="argumentValidation">
+        ///     The type of validation to perform on the argument.
+        /// </param>
         /// <param name="elementValidation">
         ///     The type of validation to perform on the elements contained in the argument sequence.
         /// </param>
-        /// <returns> The contents of the argument, in an array. </returns>
-        /// <exception cref="ArgumentNullException"> The argument is <see langword="null" />. </exception>
-        /// <exception cref="ArgumentException"> An element in the argument is <see langword="null" />. </exception>
+        /// <returns>
+        ///     The contents of the argument, in an array.
+        /// </returns>
+        /// <exception cref="ArgumentNullException">
+        ///     The argument is <see langword="null" />.
+        /// </exception>
+        /// <exception cref="ArgumentException">
+        ///     An element in the argument is <see langword="null" />.
+        /// </exception>
         [AssertionMethod]
         [ContractArgumentValidator]
         [ContractAbbreviator]
@@ -236,6 +282,114 @@ namespace OpenCollar.Extensions.Validation.Validation
             Contract.EndContractBlock();
 
             return elements.ToArray();
+        }
+
+        /// <summary>
+        ///     If argument is lower than <paramref name="lower" /> an <see cref="ArgumentOutOfRangeException" /> is
+        ///     thrown. If argument is higher than <paramref name="upper" /> an
+        ///     <see cref="ArgumentOutOfRangeException" /> is thrown.
+        /// </summary>
+        /// <param name="argument">
+        ///     The argument to validate.
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument being validated.
+        /// </param>
+        /// <param name="lower">
+        ///     The minimum permitted value.
+        /// </param>
+        /// <param name="upper">
+        ///     The maximum permitted value
+        /// </param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        ///     Thrown if argument value is less than <paramref name="lower" /> or higher than <paramref name="upper" />.
+        /// </exception>
+        [System.Diagnostics.DebuggerStepThrough]
+        [AssertionMethod]
+        public static void Validate(this int argument, [NotNull][InvokerParameterName] string argumentName, int lower,
+                                     int upper)
+        {
+            if(argument < lower)
+                throw new ArgumentOutOfRangeException(argumentName,
+                                                      string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsLowerThanLowerBound, argument,
+                                                                    lower));
+
+            if(argument > upper)
+                throw new ArgumentOutOfRangeException(argumentName,
+                                                      string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsHigherThanUpperBound, argument,
+                                                                    upper));
+        }
+
+        /// <summary>
+        ///     If argument is lower than <paramref name="lower" /> an <see cref="ArgumentOutOfRangeException" /> is
+        ///     thrown. If argument is higher than <paramref name="upper" /> an
+        ///     <see cref="ArgumentOutOfRangeException" /> is thrown.
+        /// </summary>
+        /// <param name="argument">
+        ///     The argument to validate.
+        /// </param>
+        /// <param name="lower">
+        ///     The minimum permitted value.
+        /// </param>
+        /// <param name="upper">
+        ///     The maximum permitted value
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument being validated.
+        /// </param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        ///     Thrown if argument value is less than <paramref name="lower" /> or higher than <paramref name="upper" />.
+        /// </exception>
+        [System.Diagnostics.DebuggerStepThrough]
+        [AssertionMethod]
+        public static void Validate(this double argument, double lower, double upper,
+                                     [NotNull][InvokerParameterName] string argumentName)
+        {
+            if(argument < lower)
+                throw new ArgumentOutOfRangeException(argumentName,
+                                                      string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsLowerThanLowerBound, argument,
+                                                                    lower));
+
+            if(argument > upper)
+                throw new ArgumentOutOfRangeException(argumentName,
+                                                      string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsHigherThanUpperBound, argument,
+                                                                    upper));
+        }
+
+        /// <summary>
+        ///     If argument is lower than <paramref name="lower" /> an <see cref="ArgumentOutOfRangeException" /> is
+        ///     thrown. If argument is higher than <paramref name="upper" /> an
+        ///     <see cref="ArgumentOutOfRangeException" /> is thrown.
+        /// </summary>
+        /// <param name="argument">
+        ///     The argument to validate.
+        /// </param>
+        /// <param name="lower">
+        ///     The minimum permitted value.
+        /// </param>
+        /// <param name="upper">
+        ///     The maximum permitted value
+        /// </param>
+        /// <param name="argumentName">
+        ///     The name of the argument being validated.
+        /// </param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        ///     Thrown if argument value is less than <paramref name="lower" /> or higher than <paramref name="upper" />.
+        /// </exception>
+        [System.Diagnostics.DebuggerStepThrough]
+        [AssertionMethod]
+        public static void Validate(this decimal argument, decimal lower, decimal upper,
+                                     [NotNull][InvokerParameterName] string argumentName)
+        {
+            if(argument < lower)
+                throw new ArgumentOutOfRangeException(argumentName,
+                                                      string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsLowerThanLowerBound, argument,
+                                                                    lower));
+
+            if(argument > upper)
+                throw new ArgumentOutOfRangeException(argumentName,
+                                                      string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsHigherThanUpperBound, argument,
+                                                                    upper));
         }
     }
 }

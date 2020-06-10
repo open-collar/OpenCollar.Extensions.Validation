@@ -117,19 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CollectionIsReadOnly" xml:space="preserve">
-    <value>This collection is read-only.</value>
-  </data>
-  <data name="EventHandlerThrewException" xml:space="preserve">
-    <value>One or more change event handlers threw an exception.</value>
-  </data>
-  <data name="Fragment_UnknownArgument" xml:space="preserve">
-    <value>[Unknown]</value>
-  </data>
-  <data name="KeyNotFound" xml:space="preserve">
-    <value>'{0}' did not identify a valid element.</value>
-    <comment>0: The argument name.</comment>
-  </data>
   <data name="Validate_ArgumentIsNull" xml:space="preserve">
     <value>'{0}' is null.</value>
     <comment>0: The argument name.</comment>
@@ -186,11 +173,17 @@
     <value>The value provided in '{0}' was zero.</value>
     <comment>0: The argument name.</comment>
   </data>
-  <data name="ValueIsReadOnly" xml:space="preserve">
-    <value>This value is read-only.</value>
+  <data name="Fragment_UnknownArgument" xml:space="preserve">
+    <value>[Unknown]</value>
   </data>
-  <data name="DuplicateKey" xml:space="preserve">
-      <value>An item with the same key has already been added: {0}.</value>
-      <comment>{0} - The duplicated key.</comment>
+  <data name="Validate_ArgumentIsHigherThanUpperBound" xml:space="preserve">
+    <value>Value {0} is higher than upper bound {1}.</value>
+    <comment>{0} - Value supplied.
+{1} - Upper bound.</comment>
+  </data>
+  <data name="Validate_ArgumentIsLowerThanLowerBound" xml:space="preserve">
+    <value>Value {0} is lower than lower bound {1}.</value>
+    <comment>{0} - Value supplied.
+{1} - Lower bound.</comment>
   </data>
 </root>

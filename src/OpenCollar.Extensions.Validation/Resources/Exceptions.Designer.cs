@@ -61,33 +61,6 @@ namespace OpenCollar.Extensions.Validation.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This collection is read-only..
-        /// </summary>
-        internal static string CollectionIsReadOnly {
-            get {
-                return ResourceManager.GetString("CollectionIsReadOnly", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to An item with the same key has already been added: {0}..
-        /// </summary>
-        internal static string DuplicateKey {
-            get {
-                return ResourceManager.GetString("DuplicateKey", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to One or more change event handlers threw an exception..
-        /// </summary>
-        internal static string EventHandlerThrewException {
-            get {
-                return ResourceManager.GetString("EventHandlerThrewException", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to [Unknown].
         /// </summary>
         internal static string Fragment_UnknownArgument {
@@ -97,11 +70,20 @@ namespace OpenCollar.Extensions.Validation.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &apos;{0}&apos; did not identify a valid element..
+        ///   Looks up a localized string similar to Value {0} is higher than upper bound {1}..
         /// </summary>
-        internal static string KeyNotFound {
+        internal static string Validate_ArgumentIsHigherThanUpperBound {
             get {
-                return ResourceManager.GetString("KeyNotFound", resourceCulture);
+                return ResourceManager.GetString("Validate_ArgumentIsHigherThanUpperBound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value {0} is lower than lower bound {1}..
+        /// </summary>
+        internal static string Validate_ArgumentIsLowerThanLowerBound {
+            get {
+                return ResourceManager.GetString("Validate_ArgumentIsLowerThanLowerBound", resourceCulture);
             }
         }
         
@@ -219,15 +201,6 @@ namespace OpenCollar.Extensions.Validation.Resources {
         internal static string Validate_ValueZero {
             get {
                 return ResourceManager.GetString("Validate_ValueZero", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to This value is read-only..
-        /// </summary>
-        internal static string ValueIsReadOnly {
-            get {
-                return ResourceManager.GetString("ValueIsReadOnly", resourceCulture);
             }
         }
     }
