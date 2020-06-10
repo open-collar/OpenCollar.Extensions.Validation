@@ -342,8 +342,8 @@ namespace OpenCollar.Extensions.Validation.Validation
         /// </exception>
         [System.Diagnostics.DebuggerStepThrough]
         [AssertionMethod]
-        public static void Validate(this double argument, double lower, double upper,
-                                     [NotNull][InvokerParameterName] string argumentName)
+        public static void Validate(this double argument,
+                                     [NotNull][InvokerParameterName] string argumentName, double lower, double upper)
         {
             if(argument < lower)
                 throw new ArgumentOutOfRangeException(argumentName,
@@ -378,8 +378,8 @@ namespace OpenCollar.Extensions.Validation.Validation
         /// </exception>
         [System.Diagnostics.DebuggerStepThrough]
         [AssertionMethod]
-        public static void Validate(this decimal argument, decimal lower, decimal upper,
-                                     [NotNull][InvokerParameterName] string argumentName)
+        public static void Validate(this decimal argument,
+                                     [NotNull][InvokerParameterName] string argumentName, decimal lower, decimal upper)
         {
             if(argument < lower)
                 throw new ArgumentOutOfRangeException(argumentName,

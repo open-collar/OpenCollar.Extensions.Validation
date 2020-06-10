@@ -94,6 +94,39 @@ namespace OpenCollar.Extensions.Validation.TESTS.Validation
             x.Validate(string.Empty, ObjectIs.NotNull);
         }
 
+        [Fact]
+        public void TestRangeValidation_Decimal()
+        {
+            0.Validate("x", 0, 20);
+            10.Validate("x", 0, 20);
+            20.Validate("x", 0, 20);
+
+            Assert.Throws<ArgumentOutOfRangeException>(() => (-1).Validate("x", 0, 20));
+            Assert.Throws<ArgumentOutOfRangeException>(() => 21.Validate("x", 0, 20));
+        }
+
+        [Fact]
+        public void TestRangeValidation_Double()
+        {
+            0D.Validate("x", 0D, 20D);
+            10D.Validate("x", 0D, 20D);
+            20D.Validate("x", 0D, 20D);
+
+            Assert.Throws<ArgumentOutOfRangeException>(() => (-1D).Validate("x", 0D, 20D));
+            Assert.Throws<ArgumentOutOfRangeException>(() => 21D.Validate("x", 0D, 20D));
+        }
+
+        [Fact]
+        public void TestRangeValidation_Int32()
+        {
+            ((decimal)0).Validate("x", (decimal)0, (decimal)20);
+            ((decimal)10).Validate("x", (decimal)0, (decimal)20);
+            ((decimal)20).Validate("x", (decimal)0, (decimal)20);
+
+            Assert.Throws<ArgumentOutOfRangeException>(() => ((decimal)-1).Validate("x", (decimal)0, (decimal)20));
+            Assert.Throws<ArgumentOutOfRangeException>(() => ((decimal)21).Validate("x", (decimal)0, (decimal)20));
+        }
+
         [Theory]
         [InlineData("x")]
         [InlineData(null)]
