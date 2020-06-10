@@ -1,4 +1,9 @@
 {
+  "usage/index.html": {
+    "href": "usage/index.html",
+    "title": "Basics | API Documentation",
+    "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
+  },
   "index.html": {
     "href": "index.html",
     "title": "OpenCollar.Extensions.Validation | API Documentation",
@@ -8,10 +13,5 @@
     "href": "api/index.html",
     "title": "OpenCollar.Extensions.Validation | API Documentation",
     "keywords": "OpenCollar.Extensions.Validation Support for automatic validation, update and strongly-typed access to configuration. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Validation/"
-  },
-  "usage/index.html": {
-    "href": "usage/index.html",
-    "title": "Basics | API Documentation",
-    "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
   }
 }
