@@ -26,3 +26,9 @@ Package and installation instructions at: https://www.nuget.org/packages/OpenCol
 
 The purpose of the libarary is to provide simple and concise extension methods
 that allow arguments and state to be validated efficiently at runtime.
+
+# Related Project
+
+* [OpenCollar.Extensions](https://github.com/open-collar/OpenCollar.Extensions)
+* [OpenCollar.Extensions.Configuration](https://github.com/open-collar/OpenCollar.Extensions.Configuration)
+* [OpenCollar.Extensions.Validation](https://github.com/open-collar/OpenCollar.Extensions.Validation)
