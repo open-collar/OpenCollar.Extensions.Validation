@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.html",
-          "hash": "U2ua14VnXNy85Kg0vG9BnA=="
+          "hash": "OKowwtwmyzJbHk0Xw+Pi8w=="
         }
       },
       "is_incremental": false,
@@ -36,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.EnumIs.html",
-          "hash": "UeMqJcrrTz3KsINxGrDwlw=="
+          "hash": "lFH7zuRVZMQI3e87YA9D8Q=="
         }
       },
       "is_incremental": false,
@@ -51,7 +51,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.ObjectIs.html",
-          "hash": "AIfev+UYEHzWqWU1eAulcQ=="
+          "hash": "DUATKimRKz79JsF/2xX1Sg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.StringIs.html",
-          "hash": "JA/nuL+VODAY4G0xaeYijw=="
+          "hash": "YvhYAFMxNbIyAOPNHhHLbw=="
         }
       },
       "is_incremental": false,
@@ -147,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "x8yOSawILGuyUAqrMxZzEA=="
+          "hash": "Hyqqa0MxJ6aUfwfhPrwCyw=="
         }
       },
       "is_incremental": false,
@@ -214,17 +214,17 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
           "skipped_file_count": 0
         }
       }
