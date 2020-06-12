@@ -13,7 +13,9 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Authors>Jonathan David Evans (jevans@open-collar.org.uk)</Authors>
-        <Description>Support for automatic validation, update and strongly-typed access to configuration.</Description>
+        <Description>
+            The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime.
+        </Description>
         <Copyright>Copyright © 2019-2020 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://open-collar.github.io/OpenCollar.Extensions.Validation/index.html</PackageProjectUrl>
