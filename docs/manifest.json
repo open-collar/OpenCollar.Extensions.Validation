@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.html",
-          "hash": "OKowwtwmyzJbHk0Xw+Pi8w=="
+          "hash": "ba8U5qQ6pbsS7q4Bwb7NGA=="
         }
       },
       "is_incremental": false,
@@ -36,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.EnumIs.html",
-          "hash": "lFH7zuRVZMQI3e87YA9D8Q=="
+          "hash": "LjkBLaBOiS2Dp2VK3d0O/w=="
         }
       },
       "is_incremental": false,
@@ -51,7 +51,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.ObjectIs.html",
-          "hash": "DUATKimRKz79JsF/2xX1Sg=="
+          "hash": "3hLIuDxTtuQoq67SS90bIQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Validation.StringIs.html",
-          "hash": "YvhYAFMxNbIyAOPNHhHLbw=="
+          "hash": "uIbqscHAu7TV4WXigUWKVQ=="
         }
       },
       "is_incremental": false,
@@ -214,17 +214,17 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
           "skipped_file_count": 0
         }
       }
