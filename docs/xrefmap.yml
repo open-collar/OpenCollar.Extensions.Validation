@@ -13,6 +13,22 @@ references:
   commentId: T:OpenCollar.Extensions.Validation.ArgumentValidationExtensions
   fullName: OpenCollar.Extensions.Validation.ArgumentValidationExtensions
   nameWithType: ArgumentValidationExtensions
+- uid: OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength*
+  name: IsNotNullOrZeroLength
+  href: api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.html#OpenCollar_Extensions_Validation_ArgumentValidationExtensions_IsNotNullOrZeroLength_
+  commentId: Overload:OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength
+  nameWithType: ArgumentValidationExtensions.IsNotNullOrZeroLength
+- uid: OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength``1(System.Collections.Generic.ICollection{``0},System.String)
+  name: IsNotNullOrZeroLength<T>(ICollection<T>, String)
+  href: api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.html#OpenCollar_Extensions_Validation_ArgumentValidationExtensions_IsNotNullOrZeroLength__1_System_Collections_Generic_ICollection___0__System_String_
+  commentId: M:OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength``1(System.Collections.Generic.ICollection{``0},System.String)
+  name.vb: IsNotNullOrZeroLength(Of T)(ICollection(Of T), String)
+  fullName: OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength<T>(System.Collections.Generic.ICollection<T>, System.String)
+  fullName.vb: OpenCollar.Extensions.Validation.ArgumentValidationExtensions.IsNotNullOrZeroLength(Of T)(System.Collections.Generic.ICollection(Of T), System.String)
+  nameWithType: ArgumentValidationExtensions.IsNotNullOrZeroLength<T>(ICollection<T>, String)
+  nameWithType.vb: ArgumentValidationExtensions.IsNotNullOrZeroLength(Of T)(ICollection(Of T), String)
 - uid: OpenCollar.Extensions.Validation.ArgumentValidationExtensions.Validate(System.Decimal,System.String,System.Decimal,System.Decimal)
   name: Validate(Decimal, String, Decimal, Decimal)
   href: api/OpenCollar.Extensions.Validation.ArgumentValidationExtensions.html#OpenCollar_Extensions_Validation_ArgumentValidationExtensions_Validate_System_Decimal_System_String_System_Decimal_System_Decimal_
