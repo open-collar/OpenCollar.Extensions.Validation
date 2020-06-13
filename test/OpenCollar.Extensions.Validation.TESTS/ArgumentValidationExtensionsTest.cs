@@ -28,6 +28,33 @@ namespace OpenCollar.Extensions.Validation.TESTS.Validation
 {
     public class ArgumentValidationExtensionsTest
     {
+        /// <summary>
+        ///     A test for ArgumentIsNotNullOrZeroLength (Array, string)
+        /// </summary>
+        [Fact]
+        public void ArgumentIsNotNullOrZeroLengthTest()
+        {
+            new[] { 2 }.IsNotNullOrZeroLength("intArray");
+        }
+
+        /// <summary>
+        ///     A test for ArgumentIsNotNullOrZeroLength (Array, string)
+        /// </summary>
+        [Fact]
+        public void ArgumentIsNotNullOrZeroLengthTestIsEmpty()
+        {
+            Assert.Throws<ArgumentException>(() => new int[0].IsNotNullOrZeroLength("intArray"));
+        }
+
+        /// <summary>
+        ///     A test for ArgumentIsNotNullOrZeroLength (Array, string)
+        /// </summary>
+        [Fact]
+        public void ArgumentIsNotNullOrZeroLengthTestIsNull()
+        {
+            Assert.Throws<ArgumentNullException>(() => ((int[])null).IsNotNullOrZeroLength("intArray"));
+        }
+
         [Fact]
         public void TestEnumerableValidation()
         {

@@ -391,5 +391,35 @@ namespace OpenCollar.Extensions.Validation
                                                       string.Format(CultureInfo.CurrentCulture, Exceptions.Validate_ArgumentIsHigherThanUpperBound, argument,
                                                                     upper));
         }
+
+        /// <summary>
+        ///     If collection argument is null a <see cref="ArgumentNullException" /> is thrown. If collection argument
+        ///     is empty a <see cref="ArgumentException" /> is thrown.
+        /// </summary>
+        /// <param name="argument">
+        ///     Argument value
+        /// </param>
+        /// <param name="argumentName">
+        ///     Argument name
+        /// </param>
+        /// <exception cref="ArgumentException">
+        ///     Thrown if collection argument is empty.
+        /// </exception>
+        /// <exception cref="ArgumentNullException">
+        ///     Thrown if <paramref name="argument" /> is <see langword="null" />.
+        /// </exception>
+        [System.Diagnostics.DebuggerStepThrough]
+        [AssertionMethod]
+        [ContractAbbreviator]
+        public static void IsNotNullOrZeroLength<T>(
+            [AssertionCondition(AssertionConditionType.IS_NOT_NULL)] [ValidatedNotNull]
+            this ICollection<T> argument,
+            [NotNull][InvokerParameterName] string argumentName)
+        {
+            Validate(argument, argumentName, ObjectIs.NotNull);
+
+            if(argument.Count == 0)
+                throw new ArgumentException(Resources.Exceptions.Validate_ArgumentIsZeroLength, argumentName);
+        }
     }
 }

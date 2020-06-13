@@ -124,6 +124,15 @@ namespace OpenCollar.Extensions.Validation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The value provided in &apos;{0}&apos; was zero-length..
+        /// </summary>
+        internal static string Validate_EmptySequence {
+            get {
+                return ResourceManager.GetString("Validate_EmptySequence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &apos;0&apos; does not contain a valid value..
         /// </summary>
         internal static string Validate_EnumDoesNotContainValidValue {

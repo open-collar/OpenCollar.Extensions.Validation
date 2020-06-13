@@ -186,4 +186,8 @@
     <comment>{0} - Value supplied.
 {1} - Lower bound.</comment>
   </data>
+  <data name="Validate_EmptySequence" xml:space="preserve">
+    <value>The value provided in '{0}' was zero-length.</value>
+    <comment>0: The argument name.</comment>
+  </data>
 </root>
